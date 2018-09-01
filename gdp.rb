@@ -2,10 +2,10 @@ require "formula"
 
 class Gdp < Formula
   homepage "https://github.com/Connehito/gdp"
-  url "https://github.com/Connehito/gdp/releases/download/v0.2.1/gdp_v0.2.1_darwin_amd64.tar.gz", :using => GitHubPrivateRepositoryReleaseDownloadStrategy
-  sha256 "54dee9b038647519cde7120720c71030f6f255b6a7ad4a6bf6448cc5faa9ebce"
+  url "https://github.com/Connehito/gdp/releases/download/v0.2.2/gdp_v0.2.2_darwin_amd64.tar.gz"
+  sha256 "a42f8dbc03ddc2e12be51cbb07c44d059e0bffa67b67b7fb162d9eef1a2b7fcf"
   head "https://github.com/Connehito/gdp.git"
-  version "0.2.1"
+  version "0.2.2"
 
   def install
     bin.install "gdp"
