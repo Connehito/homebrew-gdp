@@ -7,6 +7,9 @@ class Gdp < Formula
   head "https://github.com/Connehito/gdp.git"
   version "0.2.2"
 
+  depends_on "hub"
+  depends_on "git"
+
   def install
     bin.install "gdp"
   end
