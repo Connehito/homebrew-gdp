@@ -8,6 +8,7 @@ class Gdp < Formula
   version "0.2.2"
 
   depends_on "hub"
+  depends_on "git"
 
   def install
     bin.install "gdp"
